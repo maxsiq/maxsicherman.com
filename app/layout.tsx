@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${courierPrime.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col">
-        <div className="w-full max-w-[620px] ml-16 px-8">
+        <div className="w-full max-w-[620px] mx-auto px-8">
           <TabBar />
           <main className="flex-1 py-12">{children}</main>
         </div>
